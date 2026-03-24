@@ -15,3 +15,8 @@
 \i docker-entrypoint-initdb.d/V2_20260324_alter_table_tbl_reportes_fallos.sql
 \i docker-entrypoint-initdb.d/V2_20260324_create_indexs_tbl_reporte_fallos.sql
 
+
+
+-- Modulo 4: Comentarios a tablas y columnas
+\i docker-entrypoint-initdb.d/V4_20260324_comment_tbl_tecnicos.sql
+\i docker-entrypoint-initdb.d/V4_20260324_comment_column_estado_in_tbl_pizarras.sql

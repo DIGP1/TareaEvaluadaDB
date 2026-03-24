@@ -1,0 +1,1 @@
+COMMENT ON COLUMN tbl_pizarras.estado IS 'El estado de la pizarra, puede ser "Operativa" si esta disponible, "En Reparacion" si se ha reportado el fallo o "Fuera de Servicio" si el tecnico no puede resolverlo.';

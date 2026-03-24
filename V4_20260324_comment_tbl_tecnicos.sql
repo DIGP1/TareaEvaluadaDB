@@ -1,0 +1,1 @@
+COMMENT ON TABLE tbl_tecnicos IS 'Esta es la tabla de tecnicos que se encargan de resolver los reportes de fallos, cada tecnico tiene un id unico, un nombre y un correo electronico para contacto.';
