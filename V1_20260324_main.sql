@@ -1,7 +1,11 @@
-create table "User" (
-    "id" serial primary key,
-    "username" varchar(255) not null unique,
-    "email" varchar(255) not null unique,
-    "password_hash" varchar(255) not null,
-    "created_at" timestamp with time zone default current_timestamp
-);
+\i docker-entrypoint-initdb.d/V1_20260324_create_table_tbl_pizarras.sql
+\i docker-entrypoint-initdb.d/V1_20260324_create_table_tbl_tecnicos.sql
+\i docker-entrypoint-initdb.d/V1_20260324_create_table_tbl_reportes_fallos.sql
+\i docker-entrypoint-initdb.d/V1_20260324_alter_table_tbl_reportes_fallos.sql
+\i docker-entrypoint-initdb.d/V1_20260324_create_function_trigger.sql
+\i docker-entrypoint-initdb.d/V1_20260324_create_trigger.sql
+\i docker-entrypoint-initdb.d/V1_20260324_insert_tbl_pizarras.sql
+\i docker-entrypoint-initdb.d/V1_20260324_insert_tbl_tecnicos.sql
+\i docker-entrypoint-initdb.d/V1_20260324_insert_tbl_reportes_fallos.sql
+\i docker-entrypoint-initdb.d/V1_20260324_select_tbl_tbl_reportes_fallos.sql
+\i docker-entrypoint-initdb.d/V1_20260324_select_tbl_pizarras.sql

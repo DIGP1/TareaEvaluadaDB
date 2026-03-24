@@ -1,0 +1,1 @@
+insert into tbl_tecnicos (nombre, especialidad) values ('Juan Pérez', 'Electrónica'), ('María García', 'Mecánica'), ('Carlos López', 'Software'), ('Ana Martínez', 'Redes'), ('Luis Rodríguez', 'Hardware');
